@@ -1,0 +1,42 @@
+<?php
+
+return[
+    'title'             => 'Profile',
+    'page_title'        => 'Профиль',
+
+    'edit'   => [
+        'button_edit'                   => 'Редактировать',
+        'dont_want_to_change_password'  => 'Если не хотите менять пароль - оставьте поле пустым.',
+        'label_name'                    => 'Название компании',
+        'placeholder_name'              => 'Название компании',
+        'label_login'                   => 'Login (email)',
+        'placeholder_login'             => 'Login (email)',
+        'label_password'                => 'Пароль',
+        'placeholder_password'          => 'Пароль',
+        'generate'                      => 'Генерировать пароль',
+        'label_payment_gateways'        => 'Доступные платежные системы',
+        'settings'                      => 'Настройки',
+        'values'                        => 'Значение',
+        'currency'                      => 'Валюта',
+        'rolling'                       => 'Rolling (%)',
+        'transaction_percent'           => 'Процент от транзакции (%)',
+        'transaction_cost'              => 'Стоимость транзакции',
+        'refund'                        => 'Refund',
+        'chargeback'                    => 'Chargeback',
+        'hold'                          => 'Hold (дней)',
+        'min_payout'                    => 'Минимальная выплата (в валюте шлюза)',
+        'payment_methods'               => 'Доступные способы выплаты',
+        'payout_cost'                   => 'Стоимость выплаты',
+        'label_country'                 => 'Страна',
+        'option_country'                => 'Выберите страну',
+        'label_state'                   => 'Область/штат',
+        'placeholder_state'             => 'Область/штат',
+        'label_city'                    => 'Город',
+        'placeholder_city'              => 'Город',
+        'label_zip'                     => 'ZIP код',
+        'placeholder_zip'               => 'ZIP код',
+        'label_address'                 => 'Адрес',
+        'placeholder_address'           => 'Адрес',
+    ],
+
+];
